@@ -4,19 +4,19 @@ Use various protocols in the management, control, and data planes to test Cisco 
 ### Network Diagram
 ![Image Failed to Load](Network_Diagram.png)
 ## Devices
-Cat 8000v (IOS XE)
+Catalyst 8000v (IOS XE)
 
-Cat 9300 (IOS XE)
+Catalyst 9300 (IOS XE)
 
-Cat 9800 WLC
+Catalyst 9800 WLC
 
 Catalyst 9100 APs
 
 Nexus 9000 (NX OS)
 
-FTDv 
+Cisco FTDv 
 
-FMCv
+Cisco FMCv
 ## Management Plane
 ## Control Plane
 ## Data Plane
