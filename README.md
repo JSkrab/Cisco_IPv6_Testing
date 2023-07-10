@@ -64,7 +64,7 @@ Client: Used device to virtually connect to other devices outside of the interna
 ### NTP (Server/Client)
 Server: Device acted as an stratum level 4 NTP server whose client was a stratum level 5 Endpoint 1. Clock synchronization was successful.
 
-Client: This device used the stratum level 3 NAT 64 Router as a server for clock synchronization. All tests completed successfully.
+Client: This device used the stratum level 3 NAT 64 Router as a server for clock synchronization. All tests completed successfully. In both server and client tests, the clock was manually set to an incorrect time and the device's clock was synced using NTP correctly.
 
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
