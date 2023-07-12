@@ -1,6 +1,6 @@
 # Cisco_IPv6_Testing
 ## Objective
-Use various protocols in the management, control, and data planes to test Cisco devices with IPv6 addressing. Test multiple devices using a standard set of protocols and document the process. Devices are first tested using IPv4 to establish a baseline of expected results. 
+Use various protocols in the management, control, and data planes to test Cisco devices with IPv6 addressing. Test multiple devices using a standard set of protocols and document the process. Devices are first tested using IPv4 to establish a baseline of expected results. This is an ongoing project where each device, protocol, and test is completed on a rolling basis.
 ### Network Topology
 ![Image Failed to Load](Network_Diagram.png)
 ## Devices
