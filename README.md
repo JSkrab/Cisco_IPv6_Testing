@@ -92,4 +92,6 @@ Client: This device used the stratum level 3 NAT 64 Router as a server for clock
 ## Control Plane
 ### Static Routes
 During set up of each test device, static routes were configured. A default route was configured that hops the NAT64 router and a static route to 2005:1117:1:3::/64 was configured that hops Endpoint 1. Static IPv6 configuration was successful for all devices.
+### OSPF Routes
+After the network was configured with static routes, most static routes were deleted and the network was configured using OSPF routes. Default static routes were not deleted on any devices. The process to create the OSPF routes on each device 
 ## Data Plane
