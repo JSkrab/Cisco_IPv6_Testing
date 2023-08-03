@@ -6,6 +6,8 @@ Use various protocols in the management, control, and data planes to test Cisco 
 ## Potential Devices
 Catalyst 8000v (IOS XE)
 
+Catalyst 8200 (IOS XE)
+
 Catalyst 9300 (IOS XE)
 
 Catalyst 9800 WLC
@@ -27,6 +29,7 @@ succcessfully.
 | Device  |  Request  |  Reply  |
 | :-------: | :-------: | :----------: |
 | Catalyst 8000v| ✓ | ✓ |  *Hosted in VMWare ESXI
+| Catalyst 8200 |   |   |
 | Catalyst 9300  |         |            |
 | Catalyst 9800 WLC |  |  |
 | Catalyst 9100 AP |  |  |
@@ -41,6 +44,7 @@ Client: Used device to virtually connect to other devices outside of the interna
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
 | Catalyst 8000v| ✓ | ✓ |
+| Catalyst 8200 |   |   |
 | Catalyst 9300 |   |   |
 | Catalyst 9800 WLC |   |   |
 | Catalyst 9100 AP  |   |   |
@@ -55,6 +59,7 @@ Client: Used device to virtually connect to other devices outside of the interna
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
 | Catalyst 8000v| ✓ | ✓ |
+| Catalyst 8200 |   |   |
 | Catalyst 9300 |   |   |
 | Catalyst 9800 WLC |   |   |
 | Catalyst 9100 AP  |   |   |
@@ -69,6 +74,7 @@ Client:
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
 | Catalyst 8000v| ✓ | ✓ |
+| Catalyst 8200 |   |   |
 | Catalyst 9300 |   |   |
 | Catalyst 9800 WLC |   |   |
 | Catalyst 9100 AP  |   |   |
@@ -83,6 +89,7 @@ Client: This device used the stratum level 3 NAT 64 Router as a server for clock
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
 | Catalyst 8000v| ✓ | ✓ |
+| Catalyst 8200 |   |   |
 | Catalyst 9300 |   |   |
 | Catalyst 9800 WLC |   |   |
 | Catalyst 9100 AP  |   |   |
