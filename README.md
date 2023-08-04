@@ -67,9 +67,6 @@ Client: Used device to virtually connect to other devices outside of the interna
 | Cisco FTDv |      |   |
 | Cisco FMCv |      |   |
 ### DNS (Server/Client)
-Server: 
-
-Client: 
 
 | Device  |    |
 | :-------: | :-------: |
