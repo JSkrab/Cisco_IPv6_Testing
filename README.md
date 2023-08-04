@@ -66,12 +66,13 @@ Client: Used device to virtually connect to other devices outside of the interna
 | Nexus 9000 |      |   |
 | Cisco FTDv |      |   |
 | Cisco FMCv |      |   |
-### DNS (Server/Client)
+### DNS
+DNS connection is tested by pinging ciscofederal.com
 
 | Device  |    |
 | :-------: | :-------: |
 | Catalyst 8000v| ✓ |
-| Catalyst 8200 | ✓  |
+| Catalyst 8200 | ✓ |
 | Catalyst 9300 |   |   
 | Catalyst 9800 WLC |   |   
 | Catalyst 9100 AP  |   |   
@@ -79,9 +80,9 @@ Client: Used device to virtually connect to other devices outside of the interna
 | Cisco FTDv |      |   
 | Cisco FMCv |      |   
 ### NTP (Server/Client)
-Server: Device acted as an stratum level 4 NTP server whose client was a stratum level 5 Endpoint 1. Clock synchronization was successful.
+Server: Device acted as an stratum level 4 NTP server whose client was the stratum level 5 C8000V 1. Clock synchronization was successful.
 
-Client: This device used the stratum level 3 NAT 64 Router as a server for clock synchronization. All tests completed successfully. In both server and client tests, the clock was manually set to an incorrect time and the device's clock was synced using NTP correctly.
+Client: This device used the stratum level 3 mgmt as a server for clock synchronization. All tests completed successfully. In both server and client tests, the clock was manually set to an incorrect time and the device's clock was synced using NTP correctly.
 
 | Device  |  Server  |  Client  |
 | :-------: | :-------: | :----------: |
@@ -95,7 +96,7 @@ Client: This device used the stratum level 3 NAT 64 Router as a server for clock
 | Cisco FMCv |      |   |
 ## Control Plane
 ### Static Routes
-During set up of each test device, static routes were configured. A default route was configured that hops the NAT64 router and a static route to 2005:1117:1:3::/64 was configured that hops Endpoint 1. Static IPv6 configuration was successful for all devices.
+During set up of each test device, static routes were configured. A default route was configured using sstest as the next hop and a static route to 2005:1117:1:3::/64 was configured using C8000V 1 as the next hop. Static IPv6 configuration was successful for all devices.
 ### OSPF Routes
-After the network was configured with static routes, most static routes were deleted and the network was configured using OSPF routes. Default static routes were not deleted on any devices. The process to create the OSPF routes on each device 
+After the network was configured with static routes, most static routes were deleted and the network was configured using OSPF routes. Default static routes were not deleted on any devices.
 ## Data Plane
